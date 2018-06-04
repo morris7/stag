@@ -3884,7 +3884,7 @@
 
 	#intro {
 		background-attachment: fixed;
-		background-image: url("images/intro.svg");
+		background-image: url("images/mario_background.png");
 		background-position: top right;
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
@@ -3916,4 +3916,13 @@
 				background-attachment: scroll;
 			}
 
+		}
+
+		img.limitImg {
+			height:100%;
+			width:100%;
+		}
+
+		a.googleLink {
+			color: #2727ec;
 		}
